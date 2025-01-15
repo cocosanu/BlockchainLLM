@@ -1,0 +1,7 @@
+customtkinter
+web3
+pillow
+click
+netaddr
+ipfshttpclient
+dotenv
