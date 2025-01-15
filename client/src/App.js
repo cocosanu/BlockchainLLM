@@ -11,9 +11,9 @@ import Footer from './components/Footer';
 import SiteNavbar from './components/SiteNavbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-const auth = 'Basic ' + Buffer.from(process.env.REACT_APP_INFURA_PROJECT_ID + ':' + process.env.REACT_APP_INFURA_API_KEY_SECRET).toString('base64');
+const auth = 'Basic ' + Buffer.from(process.env.REACT_APP_PINATA_API_KEY + ':' + process.env.REACT_APP_PINATA_API_SECRET).toString('base64');
 const ipfs = create({
-  host: 'ipfs.infura.io',
+  host: 'api.pinata.cloud',
   port: 5001,
   protocol: 'https',
   headers: {
@@ -36,9 +36,9 @@ function App() {
          console.log(error)
         });
       window.ethereum.on('chainChanged', () => window.location.reload());
-		} else {
-			alert('Please use Metamask or a Web3 enabled browser');
-		}
+    } else {
+      alert('Please use Metamask or a Web3 enabled browser');
+    }
   }
 
   const getContractInstance = async () => {
