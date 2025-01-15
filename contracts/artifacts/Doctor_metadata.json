@@ -1,0 +1,193 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_patientContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "doctorAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "DoctorRegistered",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "patientAddress",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "recordHash",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "updatedBy",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "RecordUpdated",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_patientAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_recordHash",
+						"type": "string"
+					}
+				],
+				"name": "addRecordForPatient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "doctors",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "doctorAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isRegistered",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "patientContract",
+				"outputs": [
+					{
+						"internalType": "contract Patient",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_doctorAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "registerDoctor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractDoctor.sol": "Doctor"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractDoctor.sol": {
+			"keccak256": "0x8c65c9a779069e591fc44eb0381ebeb46ed0befc779aad1386d5356d600cd794",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1b25ee488ffa3d5871dcc031bd2112a2ddeda1a716ad5964a4e1b037c70af30c",
+				"dweb:/ipfs/QmVgYghLnBBocyDQMbgVYsyvyYEWkcsATepZQVtg3Kn3q2"
+			]
+		},
+		"contracts/ContractPatient.sol": {
+			"keccak256": "0xa8f51a067f68f6701882a39569b8ae5726f5c569ca9cd8f1a6537bde2850597b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4f6fdb41396ff11797b22f460b9c2e945a41189da7e2bd2b887fa8a0d4e1e292",
+				"dweb:/ipfs/QmQGU2Q1HEVdyVA416YcvztKXNZmNhudg7AQXtwfG83SGe"
+			]
+		}
+	},
+	"version": 1
+}
