@@ -1,0 +1,13 @@
+Name,Address,Role,Specialization
+patient_2,0x5d939d3eA36fF126F65817241A9b326aB4D687b0,Patient,N/A
+Robert Stefan,0x03A8539cE15fA7909B5fe18f3cbA32efC1Fec167,Patient,N/A
+Robert Stefan,0x03A8539cE15fA7909B5fe18f3cbA32efC1Fec167,Patient,N/A
+Robert Stefan,0x03A8539cE15fA7909B5fe18f3cbA32efC1Fec167,Patient,N/A
+Robert Stefan,0x7D86d5F3113d4e90d764025721277accd43bb957,Patient,N/A
+John Doe,0x5d939d3eA36fF126F65817241A9b326aB4D687b0,Doctor,Cardiologist
+John Doe,0x38Dca97f4435Acf50f05D375B04ace8336F128d1,Doctor,Cardiologist
+John Doe,0x38Dca97f4435Acf50f05D375B04ace8336F128d1,Doctor,Cardiologist
+John Doe,0xC30Ce1a6EF272fa61f43783b891439185b9b1B29,Patient,N/A
+John Doe,0x94c7Ce6c2338B2e67722A27168B37b405B817E05,Doctor,Cardiologist
+Robert Stefan,0x173e5Cf3d851ea4AbD87BC0e022b032B1E1F1ABd,Patient,N/A
+Petrica Mitu Stoian,0x850bA09c6b3A5E9Bf522059c16b5393Dc212CD1a,Doctor,Manelist

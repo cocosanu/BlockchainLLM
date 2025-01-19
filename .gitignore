@@ -1,6 +1,6 @@
 .states
 .venv
 .states/vm-cancun
-frontend/.env
-frontend/user_accounts.csv
-frontend/medical_folder.json
+.frontend/.env
+.frontend/user_accounts.csv
+.frontend/medical_folder.json
