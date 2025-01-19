@@ -134,7 +134,7 @@ class ToplevelWindow(customtkinter.CTkToplevel):
 class App(customtkinter.CTk):
     def __init__(self):
         super().__init__()
-        self.title("MEDICA")
+        self.title("Med-Chain")
         self.geometry("1000x700")
         self.resizable(False, False)
         self.grid_rowconfigure(0, weight=1)
