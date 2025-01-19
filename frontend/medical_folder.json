@@ -2,11 +2,11 @@
     "address": "0x173e5Cf3d851ea4AbD87BC0e022b032B1E1F1ABd",
     "address_doctor": "0x850bA09c6b3A5E9Bf522059c16b5393Dc212CD1a",
     "name": "Robert Stefan",
-    "doctor": "Petrica Mitu Stoianu",
-    "familiaux": "Married",
-    "personnels": "dasd",
-    "motif": "headache",
-    "etat": "good",
-    "date": "2025-15-01",
-    "medications": "Faringosept"
+    "doctor": "Petrica Mitu Stoian",
+    "blood_group": "A-",
+    "phone_number": "081231275415",
+    "reason": "headache",
+    "condition": "stable",
+    "date": "2025-01-19",
+    "medications": "okay"
 }
